@@ -192,6 +192,10 @@ class ActiveRecord::ConnectionAdapters::NullDBAdapter <
 
       [index_name, index_type, index_columns]
     end
+
+    def index_name_exists?(table_name, index_name, some_flag)
+      # always return false for now
+    end
   end
 
   def add_fk_constraint(*args)
