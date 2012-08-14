@@ -1,5 +1,8 @@
 = The NullDB Connection Adapter Plugin
 
+== DON'T DELETE ME!!!
+At least until the project is fully migrated!
+
 == What
 
 NullDB is the Null Object pattern as applied to ActiveRecord database
@@ -7,6 +10,10 @@ adapters.  It is a database backend that translates database
 interactions into no-ops.  Using NullDB enables you to test your model
 business logic - including +after_save+ hooks - without ever touching
 a real database.
+
+This fork of NullDB was made to get the library running in a project
+based on rails-2.3.x which is in the process of being upgraded. If 
+you delete this fork, that project won't build!!
 
 == Installation
 
